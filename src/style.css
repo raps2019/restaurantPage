@@ -1,0 +1,64 @@
+
+body {
+    margin: 0px;
+    background-color: #cccccc;
+    background-image: linear-gradient(#dcfffb,#FFDCf4)
+}
+
+#nav {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);    
+    list-style-type: none;
+    height: 5vh
+}
+
+.navButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: bisque;
+    background-color: black;
+    margin: 0;
+    border: none;
+    font-family: 'Big Shoulders Inline Text', cursive;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    font-size: 0.75em;
+}
+
+.navButtonActive {
+    text-decoration: underline;
+    color: #B8E2F2;
+}
+
+#main {
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
+    list-style-type: none;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 4em;
+    border-bottom: 1px solid black;
+}
+
+#footer {
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
+}

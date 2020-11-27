@@ -8,7 +8,7 @@ import populateMenu from './modules/menu';
 import populateAbout from './modules/about';
 import populateContact from './modules/contact';
 import populateHours from './modules/hours';
-import "../src/style.css"
+// import "../src/style.css"
 
 
 // populateMenu(['one','two'])

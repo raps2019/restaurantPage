@@ -2,21 +2,6 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/style.css":
-/*!***********************!*\
-  !*** ./src/style.css ***!
-  \***********************/
-/*! namespace exports */
-/*! exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -32,7 +17,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_about__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/about */ "./src/modules/about.js");
 /* harmony import */ var _modules_contact__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/contact */ "./src/modules/contact.js");
 /* harmony import */ var _modules_hours__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/hours */ "./src/modules/hours.js");
-/* harmony import */ var _src_style_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../src/style.css */ "./src/style.css");
 console.log("This should log without refreshing")
 
 ;
@@ -43,7 +27,7 @@ console.log("This should log without refreshing")
 
 
 
-
+// import "../src/style.css"
 
 
 // populateMenu(['one','two'])
